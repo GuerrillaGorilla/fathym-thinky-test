@@ -4,12 +4,14 @@ import tailwindLogo from '/tailwind.svg'
 import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import ForceDirectedTree from './ForceDirectedGraph'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <ForceDirectedTree />
       <div className="mx-auto max-w-md">
         <div className="flex h-40 max-w-md items-center justify-center">
           <div className="h-40 w-40">
