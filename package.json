@@ -14,7 +14,8 @@
     "d3": "^6.2.0",
     "d3-force": "^3.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

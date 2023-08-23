@@ -5,12 +5,14 @@ import reactLogo from '/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ForceDirectedTree from './ForceDirectedGraph'
+import Slide from './SlideMock'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Slide />
     <ForceDirectedTree />
       <div className="mx-auto max-w-md">
         <div className="flex h-40 max-w-md items-center justify-center">
